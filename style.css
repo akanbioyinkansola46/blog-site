@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3f3f3;
+}
+.healing-parent{
+display: flex;
+margin: 0 20px;
+}
+.healing-child:nth-child(1){
+width: 30%;
+}
+.healing-child:nth-child(2){
+width: 70%;
+margin-left: 600px;
+}
+.book-button{
+color:green;
+border-radius: 4px;
+margin-left: 50%;
+}
+.images{
+    display: flex;
+}
+.mission-parent{
+display: flex;
+margin: 0 20px;
+}
+.mission-child:nth-child(1){
+width: 30%;
+}
+.mission-child:nth-child(2){
+width: 70%;
+margin-left: 600px;
+}
+
+.services {
+    display: flex;
+    width: 100%;
+    min-height: 700px;
+}
+
+.service-image {
+    width: 35%;
+}
+
+.service-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-content {
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 70px 80px;
+    gap: 50px;
+}
+
+.service-box {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #aaa;
+}
+
+.service-box h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.service-box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.service-content button {
+    width: 180px;
+    height: 55px;
+    border: 1px solid #aaa;
+    border-radius: 30px;
+    background: transparent;
+    font-size: 16px;
+}
